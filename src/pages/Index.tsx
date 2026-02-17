@@ -6,6 +6,7 @@ import PsoriasisTypesSection from "@/components/campaign/PsoriasisTypesSection";
 import ExacerbatingFactorsSection from "@/components/campaign/ExacerbatingFactorsSection";
 import AudienceSection from "@/components/campaign/AudienceSection";
 import FooterSection from "@/components/campaign/FooterSection";
+import SponsorsSection from "@/components/campaign/SponsorsSection";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <PsoriasisTypesSection />
       <ExacerbatingFactorsSection />
       <AudienceSection />
+      <SponsorsSection />
       <FooterSection />
     </main>
   );
